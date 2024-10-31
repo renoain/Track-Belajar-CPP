@@ -5,3 +5,38 @@ W1
 3. Variabel
   - Multiple var
   - Constants
+
+
+W2
+4. User input
+  -cin >>
+5. Data Typese
+  - Number
+  - Strings
+  - Boolean
+  - Characters
+6. Operator 
+  - Aritmethics
+  - Assignment
+  - Logical
+  - Comparassion
+7. String
+8. Math 
+  - #include <cmath>
+    - sqrt
+    - round  
+    - log
+9. Booleans
+
+W3
+10. if...else
+  - if
+  - else
+  - if else
+
+W4
+11. Switch
+12. While
+  - while loop
+  - do/while loop
+
