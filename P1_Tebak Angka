@@ -7,7 +7,7 @@ using namespace std;
 int main() {
     srand(time(0));
 
-    int angka = rand() % 100 + 1; // Angka acak antara 1 dan 100
+    int angka = rand() % 144+ 1; // Angka acak
     int tebakan;
     int jumlah_tebakan = 0;
     const int MAX_TEBAKAN = 7;  
