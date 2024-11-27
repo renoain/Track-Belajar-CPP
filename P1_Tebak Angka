@@ -1,6 +1,6 @@
 #include <iostream>
-#include <cstdlib>  // Lib. rand dan srand
-#include <ctime>    // Lib. time	
+#include <cstdlib>  // rand & srand
+#include <ctime>    // time	
 
 using namespace std;
 
@@ -18,7 +18,7 @@ int main() {
     
     do {
         cout << "Masukkan tebakan Anda: ";
-        cin >> tebakan;  // Masukkan angka untuk menebak
+        cin >> tebakan;  
         jumlah_tebakan++;
 
         if (tebakan < angka) {
@@ -28,13 +28,13 @@ int main() {
         } else {
             cout << "Selamat! Tebakanmu Benar " << angka
                  << " dengan benar setelah " << jumlah_tebakan << " tebakan." << endl;
-            break;  // Keluar dari permainan jika tebakan benar
+            break;  
         }
 
         
         if (jumlah_tebakan >= MAX_TEBAKAN) {
             cout << "Kesempatanmu menebak habis (" << MAX_TEBAKAN << " tebakan). Permainan selesai\n"<< "Kamu Gagal "<< endl;
-            break;  // Keluar dari permainan jika tebakan mencapai maksimum
+            break;   
         }
 
     } while (tebakan != angka);  
